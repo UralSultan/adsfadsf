@@ -1,0 +1,16 @@
+mkdir (name)            # Создать папку проекта
+git init                # Инициализация гита
+python -m venv venv     # Создать виртуальное окружение
+venv\Scripts\activate   # Активация виртуального Окружения на Вин
+source/bin/activate     # Активация виртуального Окружения на Мак
+pip install django      # Установить фреймворк Джанго
+pip freeze > req.txt    #  Сохранить все зависимости в файле req.txt
+django-admin startproject (name) .   # Создание проекта
+python manage.py startapp (name)     # Создание приложения
+python manage.py makemigrations      # Создание миграции
+python manage.py migrate             # Проведение миграции
+python manage.py createsuperuser     # Создание суперпользователя
+python manage.py runserver           # Запуск локального сервера
+git status
+git add .
+
